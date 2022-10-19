@@ -8,10 +8,10 @@ public class FlowerPack {
         this.flower = fl;
         this.quantity = quan;
     }
-    Flower getFlower(){
+    Flower getFlower() {
         return flower;
     }
     double getPrice() {
-        return this.flower.getPrice() * (double)this.quantity;
+        return this.flower.getPrice() * (double) this.quantity;
     }
 }

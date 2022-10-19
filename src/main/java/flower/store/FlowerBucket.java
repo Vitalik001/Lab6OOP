@@ -3,7 +3,7 @@ package flower.store;
 import java.util.ArrayList;
 
 public class FlowerBucket {
-    double price = 0.0;
+    private double price = 0.0;
     private ArrayList<FlowerPack> packs = new ArrayList();
 
     public FlowerBucket() {
@@ -13,7 +13,7 @@ public class FlowerBucket {
         this.packs.add(flpc);
         this.price += flpc.getPrice();
     }
-    ArrayList<FlowerPack> getPacks(){
+    ArrayList<FlowerPack> getPacks() {
         return packs;
     }
     double getPrice() {

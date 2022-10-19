@@ -13,7 +13,9 @@ public class Store {
         ArrayList<FlowerBucket> result = new ArrayList<>();
         for (FlowerBucket bucket : buckets) {
             for (FlowerPack pack : bucket.getPacks()) {
-                if (pack.getFlower().getFlowerType() == flower.getFlowerType()) {
+                if (pack.getFlower().getFlowerType()
+                        ==
+                        flower.getFlowerType()) {
                     result.add(bucket);
 
                 }
